@@ -1,0 +1,105 @@
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  margin: 0;
+}
+
+/* Skip Link */
+
+.skip-link {
+  position: absolute;
+  left: -999px;
+  background: black;
+  color: white;
+  padding: 10px;
+}
+
+.skip-link:focus {
+  left: 10px;
+}
+
+/* Header */
+
+header {
+  background-color: #222;
+  color: white;
+  padding: 15px;
+  text-align: center;
+}
+
+/* Navigation */
+
+nav {
+  background-color: #444;
+  padding: 10px;
+  display: inline-block;
+  width: 80%;
+}
+
+/* COMMENT OUT LI STYLE */
+
+/*
+li {
+  display: inline-block;
+  width: 150px;
+}
+*/
+
+ul {
+  list-style: none;
+  padding: 0;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Main */
+
+main {
+  background-color: #f4f4f4;
+  font-size: 18px;
+  padding: 20px;
+}
+
+/* Footer */
+
+footer {
+  background-color: #222;
+  color: white;
+  text-align: center;
+  padding: 10px;
+}
+
+/* Grid */
+
+.grid {
+  display: grid;
+  grid-template-columns: 40% 40%;
+  justify-content: center;
+  align-items: center;
+  row-gap: 20px;
+  column-gap: 20px;
+}
+
+.grid img {
+  width: 100%;
+}
+
+/* Flex */
+
+.flex {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  gap: 20px;
+}
+
+.flex img {
+  width: 200px;
+}
